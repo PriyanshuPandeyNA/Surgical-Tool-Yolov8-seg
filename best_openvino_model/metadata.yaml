@@ -1,0 +1,28 @@
+description: Ultralytics YOLOv8s-seg model trained on /kaggle/input/dataset213/data.yaml
+author: Ultralytics
+date: '2024-06-21T09:24:27.983283'
+version: 8.2.24
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: segment
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: clamp_Aillis
+  1: clamp_kelly
+  2: clamp_mosqutio
+  3: clamp_sponge
+  4: forceps_long
+  5: forceps_wide
+  6: needle_holder_14
+  7: needle_holder_20
+  8: punch
+  9: retractor_army
+  10: retractor_senn_b
+  11: retractor_senn_s
+  12: scissor_mayo
+  13: scissor_metzenbaum
+  14: scissor_operating
